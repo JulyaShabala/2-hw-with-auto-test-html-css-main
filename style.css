@@ -19,19 +19,28 @@ header span {
 }
 
 .main-section {
-    /* Стили для первой секции */
+    background-color: #fafaff;
+    padding: 60px;
+    height: 100vh;/* Стили для первой секции */
 }
 
 .main-title {
-    /* Стили для заголовка в первой секции */
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #303030;
+    margin-bottom: 20px;/* Стили для заголовка в первой секции */
 }
 
 .main-text {
-    /* Стили для текста в первой секции */
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #303030;/* Стили для текста в первой секции */
 }
 
 .main-image {
-    /* Стили для изображения в первой секции */
+    max-width: 715px;/* Стили для изображения в первой секции */
 }
 
 
