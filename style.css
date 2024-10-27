@@ -4,7 +4,10 @@
     box-sizing: border-box;/* Свойства для сброса начальных стилей элементов */
 }
 
-body {}
+body {
+    font-family: "Inter", sans-serif;
+    color: #303030;
+}
 
 header {
     background-color: #2965f1;
@@ -12,7 +15,6 @@ header {
 }
 
 header span {
-    font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 20px;
     color: #fff;/* Стили для текста в хедере IT-INCUBATOR */
@@ -25,18 +27,15 @@ header span {
 }
 
 .main-title {
-    font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 48px;
-    color: #303030;
     margin-bottom: 20px;/* Стили для заголовка в первой секции */
 }
 
 .main-text {
-    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 18px;
-    color: #303030;/* Стили для текста в первой секции */
+    /* Стили для текста в первой секции */
 }
 
 .main-image {
@@ -52,10 +51,8 @@ header span {
 select {
     width: 150px;
     padding: 8px;
-    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
     appearance: none;
     background-image: url(./assets/images/ep_arrow-down.svg);
     background-repeat: no-repeat;
@@ -63,35 +60,29 @@ select {
 }
 
 .section-title {
-    font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 24px;
-    color: #303030;
     margin-bottom: 25px;/* Стили для заголовков во второй секции */
 }
 
 .frameworks-list {
     list-style-image: url(./assets/images/Vector.svg);
     padding-left: 20px;
-    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #303030;/* Стили для маркированного списка во второй секции */
+    /* Стили для маркированного списка во второй секции */
 }
 
 .books-list {
-    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
     padding-left: 20px;/* Стили для нумерованного списка во второй секции */
 }
 
 .label {
-    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #303030;/* Стили для подписей чекбоксов */
+    /* Стили для подписей чекбоксов */
 }
 
 .text-field {
@@ -99,7 +90,6 @@ select {
     padding: 8px;
     border: 1px solid rgba(48, 48, 48, 0.3);
     border-radius: 5px;
-    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: rgba(48, 48, 48, 0.2);/* Стили для односточного поля ввода текста */
@@ -111,7 +101,6 @@ select {
     height: 36px;
     background: #2965f1;
     border: none;
-    font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 14px;
     color: #fff; /* Стили для кнопки */
@@ -125,10 +114,9 @@ table {
     border: 1px solid rgba(48, 48, 48, 0.3);
     width: 300px;
     height: 196px;
-    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 14px;
-    color: #303030;/* Стили для таблицы */
+    /* Стили для таблицы */
 }
 
 th, td {
@@ -145,7 +133,6 @@ footer {
 }
 
 .footer-link {
-    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #2965f1;
