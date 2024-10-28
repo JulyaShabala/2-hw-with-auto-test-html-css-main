@@ -8,7 +8,7 @@ body {
     font-style: normal;
     line-height: normal;
     font-family: "Inter", sans-serif;
-    color: #303030;
+    color: rgb(48, 48, 48);
 }
 
 header {
@@ -36,8 +36,7 @@ header span {
 
 .main-text {
     font-weight: 400;
-    font-size: 18px;
-    /* Стили для текста в первой секции */
+    font-size: 18px;/* Стили для текста в первой секции */
 }
 
 .main-image {
@@ -71,8 +70,7 @@ select {
     list-style-image: url(./assets/images/Vector.svg);
     padding-left: 20px;
     font-weight: 400;
-    font-size: 16px;
-    /* Стили для маркированного списка во второй секции */
+    font-size: 16px;/* Стили для маркированного списка во второй секции */
 }
 
 .books-list {
