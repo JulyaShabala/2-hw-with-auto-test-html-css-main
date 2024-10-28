@@ -19,11 +19,11 @@ header {
 header span {
     font-weight: 700;
     font-size: 20px;
-    color: #fff;/* Стили для текста в хедере IT-INCUBATOR */
+    color: rgb(255, 255, 255);/* Стили для текста в хедере IT-INCUBATOR */
 }
 
 .main-section {
-    background-color: #fafaff;
+    background-color: rgb(250, 250, 255);
     padding: 60px 0;
     height: 100vh;/* Стили для первой секции */
 }
@@ -45,7 +45,7 @@ header span {
 
 
 .about-section {
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     padding: 100px 0 100px 0;/* Стили для второй секции */
 }
 
@@ -98,11 +98,11 @@ select {
     border-radius: 5px;
     width: 125px;
     height: 36px;
-    background: #2965f1;
+    background: rgb(41, 101, 241);
     border: none;
     font-weight: 700;
     font-size: 14px;
-    color: #fff; /* Стили для кнопки */
+    color: rgb(255, 255, 255); /* Стили для кнопки */
 }
 
 .line {
@@ -133,6 +133,6 @@ footer {
 .footer-link {
     font-weight: 400;
     font-size: 14px;
-    color: #2965f1;
+    color: rgb(41, 101, 241);
     text-decoration: none;/* Стили для футера */
 }
